@@ -1,0 +1,23 @@
+{
+	"log":"log.txt",
+	"webhook":"https://oapi.dingtalk.com/robot/send?access_token=xxx",
+	"joblist":[
+		{
+			"descript":"百度",
+			"method":"get",
+			"url":"http://www.baidu.com/",
+			"host":"",
+			"contentType":"",
+			"data":"",
+			"duration":60
+		},
+		{
+			"descript":"163",
+			"method":"post",
+			"url":"http://www.163.com/login",
+			"contentType":"application/x-www-form-urlencoded",
+			"data":"username=abc&passwd=123",
+			"duration":60
+		}
+	]
+}
